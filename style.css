@@ -37,10 +37,19 @@ body {
     height: 70px;
 }
 
+.logo-link {
+    text-decoration: none;
+}
+
 .logo h2 {
     color: #2563eb;
     font-weight: 600;
     font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.logo-link:hover h2 {
+    color: #1d4ed8;
 }
 
 .nav-menu {
