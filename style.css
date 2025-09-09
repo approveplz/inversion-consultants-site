@@ -39,6 +39,15 @@ body {
 
 .logo-link {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: opacity 0.3s ease;
 }
 
 .logo h2 {
@@ -46,6 +55,11 @@ body {
     font-weight: 600;
     font-size: 1.5rem;
     transition: color 0.3s ease;
+    margin: 0;
+}
+
+.logo-link:hover .logo-img {
+    opacity: 0.8;
 }
 
 .logo-link:hover h2 {
@@ -320,6 +334,14 @@ footer {
         display: none;
     }
     
+    .logo h2 {
+        font-size: 1.3rem;
+    }
+    
+    .logo-img {
+        height: 35px;
+    }
+    
     .contact-info {
         gap: 2rem;
     }
@@ -344,6 +366,10 @@ footer {
     }
     
     .logo h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    
+    .logo-img {
+        height: 30px;
     }
 }
